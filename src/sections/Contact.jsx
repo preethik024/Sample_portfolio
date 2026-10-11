@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Mail, Github, Linkedin, Send, CheckCircle, AlertCircle } from 'lucide-react';
+import { Mail, Send, CheckCircle, AlertCircle } from 'lucide-react';
 
 // WhatsApp SVG icon (not in lucide-react)
 const WhatsAppIcon = ({ size = 18 }) => (
@@ -170,7 +170,7 @@ const Contact = () => {
 
               {/* WhatsApp */}
               <a
-                href="https://wa.me/919597256644"
+                href="https://wa.me/919876543210"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 p-4 rounded-xl border border-white/8 bg-bg-card hover:border-emerald-500/40 hover:bg-emerald-500/5 transition-all duration-200 group"
@@ -180,31 +180,9 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-text-muted text-xs mb-0.5">WhatsApp</p>
-                  <p className="text-text-primary text-sm font-medium">+91 95972 56644</p>
+                  <p className="text-text-primary text-sm font-medium">+91 98765 43210</p>
                 </div>
               </a>
-
-              {/* Social links */}
-              {socialLinks.filter((s) => s.icon !== 'mail' && s.icon !== 'whatsapp').map(({ label, url, icon }) => {
-                const Icon = icon === 'github' ? Github : Linkedin;
-                return (
-                  <a
-                    key={label}
-                    href={url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-3 p-4 rounded-xl border border-white/8 bg-bg-card hover:border-white/20 hover:bg-white/3 transition-all duration-200 group"
-                  >
-                    <div className="p-2 rounded-lg bg-white/5 text-text-secondary group-hover:text-text-primary transition-colors">
-                      <Icon size={18} />
-                    </div>
-                    <div>
-                      <p className="text-text-muted text-xs mb-0.5">{label}</p>
-                      <p className="text-text-primary text-sm font-medium">/{label.toLowerCase()}</p>
-                    </div>
-                  </a>
-                );
-              })}
             </div>
 
             {/* Availability */}

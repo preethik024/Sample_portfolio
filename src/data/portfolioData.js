@@ -13,7 +13,7 @@ export const developerInfo = {
   bio2:
     "With a focus on React, modern CSS, and thoughtful animations, I build products that not only look great but feel intuitive to use. I care deeply about code quality, UX details, and delivering real value to every project I take on.",
   availability: 'Available for freelance projects',
-  email: 'honestyrk@gmail.com',
+  email: 'ramkumarranjith01@gmail.com',
   location: 'Remote — Worldwide',
   resumeUrl: '#', // Replace with actual resume URL or file path
   stats: [
@@ -30,10 +30,8 @@ export const developerInfo = {
 };
 
 export const socialLinks = [
-  { label: 'GitHub', url: 'https://github.com/', icon: 'github' },
-  { label: 'LinkedIn', url: 'https://linkedin.com/in/', icon: 'linkedin' },
-  { label: 'Email', url: 'mailto:honestyrk@gmail.com', icon: 'mail' },
-  { label: 'WhatsApp', url: 'https://wa.me/919597256644', icon: 'whatsapp' },
+  { label: 'Email', url: 'mailto:ramkumarranjith01@gmail.com', icon: 'mail' },
+  { label: 'WhatsApp', url: 'https://wa.me/919876543210', icon: 'whatsapp' },
 ];
 
 // ─── Skills ────────────────────────────────────────────────────────────────────
